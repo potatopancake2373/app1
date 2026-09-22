@@ -30,4 +30,9 @@ class MainActivity : AppCompatActivity() {
         val onetext = findViewById<TextView>(R.id.textView)
         onetext.setTextColor(Color.MAGENTA);
     }
+
+    fun onBGButtonClick(view: View) {
+        val onetext = findViewById<TextView>(R.id.textView)
+        onetext.setBackgroundColor(Color.parseColor("#00FF00"));
+    }
 }

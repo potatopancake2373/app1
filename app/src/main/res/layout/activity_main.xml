@@ -30,6 +30,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView" />
 
+    <Button
+        android:id="@+id/bgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:onClick="onBGButtonClick"
+        android:text="Change BG colour"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="110dp"
