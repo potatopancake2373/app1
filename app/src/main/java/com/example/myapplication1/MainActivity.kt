@@ -1,5 +1,6 @@
 package com.example.myapplication1
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -23,5 +24,10 @@ class MainActivity : AppCompatActivity() {
     fun onButtonClick(view: android.view.View) {
         val onetext = findViewById<TextView>(R.id.textView)
         onetext.text = "Thanks for pressing."
+    }
+
+    fun onColourButtonClick(view: View) {
+        val onetext = findViewById<TextView>(R.id.textView)
+        onetext.setTextColor(Color.MAGENTA);
     }
 }
