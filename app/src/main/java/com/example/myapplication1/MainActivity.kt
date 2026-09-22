@@ -35,4 +35,6 @@ class MainActivity : AppCompatActivity() {
         val onetext = findViewById<TextView>(R.id.textView)
         onetext.setBackgroundColor(Color.parseColor("#00FF00"));
     }
+
+    //Hello!
 }
